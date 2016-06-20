@@ -1,0 +1,12 @@
+<head>
+	<title>Heatmap Demo</title>
+	<script src='node_modules/d3/d3.min.js'></script>
+	<script src='script.js' defer></script>
+</head>
+
+<body>
+	<canvas id="myCanvas"></canvas>
+	<br />
+	<label for="points">Points:<span id=nPoints></span><label/>
+	<input id="points" name="points" type="range" min="0" max="200" value="50" step="10" onchange="updatePoints(this.value)"/>
+</body>
